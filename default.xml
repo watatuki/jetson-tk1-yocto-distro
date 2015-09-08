@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="yocto" fetch="git://git.yoctoproject.org/" /> 
+	<remote  name="watatuki" fetch="https://github.com/watatuki/" /> 
+	
+	<default revision="master" />
+
+	<!-- Yocto Layers -->
+	<project path="poky" name="poky" remote="yocto" revision="e4cf20fd7bf4ba044f4156a450ae570aa34aa04f" />
+	<project path="meta-jetson-tk1" name="meta-jetson-tk1.git" remote="watatuki" revision="fido" />
+</manifest>
