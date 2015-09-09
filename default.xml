@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote  name="yocto" fetch="git://git.yoctoproject.org/" /> 
-	<remote  name="watatuki" fetch="https://github.com/watatuki/" /> 
+	<remote  name="yocto" fetch="git://git.yoctoproject.org/" />
+	<remote  name="linaro" fetch="git://git.linaro.org/openembedded/" />
+	<remote  name="watatuki" fetch="https://github.com/watatuki/" />
 	
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
 	<project path="poky" name="poky" remote="yocto" revision="e4cf20fd7bf4ba044f4156a450ae570aa34aa04f" />
+	<project path="meta-linaro" name="meta-linaro.git" remote="linaro" revision="fido" />
 	<project path="meta-jetson-tk1" name="meta-jetson-tk1.git" remote="watatuki" revision="fido" />
+	<project path="meta-lightwm" name="meta-lightwm.git" remote="watatuki" revision="fido" />
+	<project path="meta-miscellaneous" name="meta-miscellaneous.git" remote="watatuki" />
 </manifest>
