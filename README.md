@@ -35,10 +35,13 @@ Jetson TK1 exsample Yocto Distro
 cd /path/to/work
 
 repo init -u https://github.com/watatuki/jetson-tk1-yocto-distro.git
+
 repo sync
 
 source poky/oe-init-build-env jetson-tk1-distro
+
 bitbake jetson-tk1-image
+
 
 
 Install to SD card
@@ -46,13 +49,17 @@ Install to SD card
 SD card will assume that it is "/dev/sdx1".
 
 sudo umount /dev/sdx1
+
 sudo mkfs.ext4 /dev/sdx1
+
 sudo mkdir -p /mnt/sdcard
+
 sudo mount /dev/sdb1 /mnt/sdcard
 
 cd /mnt/sdcard
 
 sudo tar xvjf /path/to/work/jetson-tk1-distro/tmp/deploy/images/jetson-tk1-l4t/jetson-tk1-image-jetson-tk1-l4t.tar.bz2
+
 sudo sync
 
 
