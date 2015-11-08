@@ -8,7 +8,7 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="yocto" revision="e4cf20fd7bf4ba044f4156a450ae570aa34aa04f" />
+	<project path="poky" name="poky" remote="yocto" revision="b74ea963cefffad9fbd91d4eb9b240f6a8c86cd0" />
 	<project path="meta-linaro" name="meta-linaro.git" remote="linaro" revision="fido" />
 	<project path="meta-qt5" name="meta-qt5.git" remote="qt5" revision="fido" />
 	<project path="meta-jetson-tk1" name="meta-jetson-tk1.git" remote="watatuki" revision="fido" />
