@@ -13,7 +13,7 @@
 	<project path="meta-qt5" name="meta-qt5.git" remote="qt5" revision="fido" />
 	<project path="meta-jetson-tk1" name="meta-jetson-tk1.git" remote="watatuki" revision="fido" />
 	<project path="meta-lightwm" name="meta-lightwm.git" remote="watatuki" revision="fido" />
-	<project path="meta-miscellaneous" name="meta-miscellaneous.git" remote="watatuki" />
-	<project path="meta-jetson-tk1-distro" name="meta-jetson-tk1-distro.git" remote="watatuki" />
+	<project path="meta-miscellaneous" name="meta-miscellaneous.git" remote="watatuki" revision="fido" />
+	<project path="meta-jetson-tk1-distro" name="meta-jetson-tk1-distro.git" remote="watatuki" revision="fido" />
 	<project path="jetson-tk1-distro" name="jetson-tk1-distro.git" remote="watatuki" />
 </manifest>
